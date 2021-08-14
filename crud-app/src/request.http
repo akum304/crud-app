@@ -1,0 +1,36 @@
+
+
+### create a new Users
+POST  http://localhost:3000/users
+Content-Type: application/json
+
+{   
+    
+    "name": "Anshu Kumar",
+    "email": "99rajamai11@gmail.com",
+    "password": "Hijfdsakd"
+}
+
+
+### List All Users
+GET  http://localhost:3000/users
+
+###Get User BY Id
+GET http://localhost:3000/users/124
+
+###To Delete the User Data
+DELETE  http://localhost:3000/users/125
+
+###To Update the users
+PATCH  http://localhost:3000/users/125
+Content-Type: application/json
+
+{
+
+    "name": "Ansh",
+    "email": "99rajamai11@gmail.com",
+    "password": "Hijfdsakd"
+
+}
+
+
